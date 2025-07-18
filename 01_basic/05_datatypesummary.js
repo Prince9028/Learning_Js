@@ -24,5 +24,28 @@
    console.log("Hello Prince");
    
  }
- console.log(typeof scorevalue);
+ //console.log(typeof scorevalue);
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// memory ===> stack(primitive) ,heap(non primitive)--> origian value ka refarence 
  
+let myname = "prince patel"
+
+let anothername = "hello Prince"
+
+console.log(anothername);
+
+let userone = {
+  email: "user@gmail.com",
+    id: "978987@ybl"
+}
+
+let usertwo = userone 
+
+usertwo.email = "princepatel@gmail.com"
+
+console.log(usertwo);
+console.log(usertwo.email)
+
+
